@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.container {
+    border: 1px solid lightblue;
+    height: 712px;
+    width: auto;
+
+    margin: 56px 0 32px;
+}
+
+.profile {
+    border: 1px dashed lightblue;
+    height: 192px;
+    width: auto;
+    padding: 24px;
+}
+
+.avatar {
+    border: 1px dashed lightblue;
+    height: 112px;
+    width: 112px;
+
+    justify-content: center;
+    position: relative;
+}
