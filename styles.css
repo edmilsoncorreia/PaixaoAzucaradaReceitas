@@ -11,26 +11,34 @@ body {
     background-size: cover;
 }
 
-.container {
+#container {
     border: 1px solid lightblue;
     height: 712px;
-    width: auto;
+    width: 360px;
 
-    margin: 56px 0 32px;
+    margin: auto;
 }
 
-.profile {
+#profile {
     border: 1px dashed lightblue;
     height: 192px;
     width: auto;
     padding: 24px;
+
+    justify-content: center;
+    display: flex;
 }
 
-.avatar {
+#avatar {
     border: 1px dashed lightblue;
     height: 112px;
     width: 112px;
 
-    justify-content: center;
-    position: relative;
+    margin-bottom: 8px;
+
+}
+
+p {
+    color: white;
+    
 }
