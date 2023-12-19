@@ -17,6 +17,7 @@ body {
     width: 360px;
 
     margin: auto;
+
 }
 
 #profile {
@@ -26,19 +27,18 @@ body {
     padding: 24px;
 
     justify-content: center;
-    display: flex;
+    display: block;
 }
 
-#avatar {
+#profile img {
     border: 1px dashed lightblue;
     height: 112px;
     width: 112px;
-
-    margin-bottom: 8px;
 
 }
 
 p {
     color: white;
-    
+
+    margin-top: 8px;
 }
