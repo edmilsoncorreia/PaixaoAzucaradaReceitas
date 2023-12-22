@@ -34,9 +34,20 @@ body {
     height: 112px;
     width: 112px;
 
+    display: block;
+    margin: auto;
 }
 
 p {
     color: white;
     margin-top: 8px;
+}
+
+#switch {
+    border: 1px dashed lightblue;
+    height: 40px;
+    width: 64px;
+
+    display: block;
+    margin: auto;
 }
