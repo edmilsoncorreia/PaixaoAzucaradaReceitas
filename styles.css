@@ -15,7 +15,7 @@ body {
     border: 1px solid lightblue;
     width: 360px;
 
-    margin: auto;
+    margin: 56px auto 0px;
 
 }
 
@@ -50,4 +50,31 @@ p {
 
     display: block;
     margin: auto;
+}
+
+ul {
+    border: 1px dashed lightblue;
+    height: 320px;
+    padding: 24px;
+
+    list-style: none;
+
+}
+
+li {
+    border: 1px dashed lightblue;
+    height: 56px;
+
+    margin-bottom: 16px;
+
+}
+
+#links {
+    border: 1px dashed lightblue;
+    height: 88px;
+}
+
+footer {
+    border: 1px dashed lightblue;
+    height: 72px;
 }
