@@ -33,8 +33,6 @@ body {
 }
 
 #profile img {
-    border: 1px dashed lightblue;
-    height: 112px;
     width: 112px;
 
     display: block;
@@ -70,6 +68,9 @@ li {
 
     margin-bottom: 16px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #links {
