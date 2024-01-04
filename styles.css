@@ -69,8 +69,11 @@ ul {
 }
 
 li {
-    border: 1px dashed lightblue;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.10);
     height: 56px;
+
+    border-radius: 8px;
 
     margin-bottom: 16px;
 
@@ -79,9 +82,25 @@ li {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 #links {
     border: 1px dashed lightblue;
     height: 88px;
+
+    padding: 24px;
+}
+
+#social {
+border: 1px dashed lightblue;
+
+    height: 40px;
+    width: 40px;
+    margin: 0 8px;
+
+    display: inline-block;
 }
 
 footer {
